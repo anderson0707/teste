@@ -1,0 +1,63 @@
+description: "A new Flutter application."
+name: "flutterapp"
+publish_to: "none"
+version: "1.0.0+1"
+dependencies: 
+  cupertino_icons: "^0.1.3"
+  path_drawing: "^0.4.1"
+  flutter: 
+    sdk: "flutter"
+dev_dependencies: 
+  flutter_test: 
+    sdk: "flutter"
+environment: 
+  sdk: ">=2.7.0 <3.0.0"
+flutter: 
+  assets: 
+    - "assets/images/"
+  fonts: 
+    - 
+      family: "Nunito"
+      fonts: 
+        - 
+          asset: "fonts/Nunito-regular.ttf"
+          style: "normal"
+          weight: 400
+        - 
+          asset: "fonts/Nunito-700.ttf"
+          style: "normal"
+          weight: 700
+        - 
+          asset: "fonts/Nunito-600.ttf"
+          style: "normal"
+          weight: 600
+        - 
+          asset: "fonts/Nunito-900.ttf"
+          style: "normal"
+          weight: 900
+        - 
+          asset: "fonts/Nunito-800.ttf"
+          style: "normal"
+          weight: 800
+    - 
+      family: "Antic Slab"
+      fonts: 
+        - 
+          asset: "fonts/AnticSlab-regular.ttf"
+          style: "normal"
+          weight: 400
+    - 
+      family: "Baloo Tamma 2"
+      fonts: 
+        - 
+          asset: "fonts/BalooTamma2-regular.ttf"
+          style: "normal"
+          weight: 400
+    - 
+      family: "Roboto"
+      fonts: 
+        - 
+          asset: "fonts/Roboto-regular.ttf"
+          style: "normal"
+          weight: 400
+  uses-material-design: true
